@@ -280,7 +280,7 @@ img {
 .project-card__media img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project-card__title {
@@ -328,7 +328,6 @@ img {
 
 .about__photo-wrap {
   position: relative;
-  aspect-ratio: 3 / 4.2;
   max-width: 340px;
   overflow: hidden;
   background: #111;
@@ -336,8 +335,8 @@ img {
 
 .about__photo-wrap img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
   filter: grayscale(100%);
 }
 
@@ -517,7 +516,7 @@ img {
 .portfolio-item__media img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .portfolio-item__head {
@@ -599,7 +598,7 @@ img {
 }
 
 .project-split__visual {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   background: #111;
 }
@@ -607,7 +606,7 @@ img {
 .project-split__visual img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Video block */
